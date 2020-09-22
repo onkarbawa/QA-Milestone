@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Android Suite" verbose="1"  thread-count="1" >
+    <parameter name="platform" value="Android"/>
+    <parameter name="browser" value="Chrome"/>
+    <listeners>
+        <listener class-name="com.milestone.listener.WebDriverListener"/>
+    </listeners>
+    <test name="android">
+        <classes>
+            <class name="test.Android"/>
+        </classes>
+    </test>
+</suite>

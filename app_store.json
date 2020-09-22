@@ -1,0 +1,39 @@
+{
+  "android": [
+    {
+      "name": "Chrome",
+      "browserName": "Chrome"
+    }
+  ],
+  "iOS": [
+    {
+      "name": "Safari",
+      "browserName": "Safari"
+    }
+  ],
+  "tvOS": [
+    {
+      "name": "Pluto",
+      "bundleId": "tv.pluto.ios.debug"
+    }
+  ],
+  "browserStackIOS": [
+    {
+      "name": "Safari",
+      "browserName": "Safari"
+    }
+  ],
+  "browserStackAndroid": [
+    {
+      "name": "Chrome",
+      "browserName": "Chrome",
+      "chromedriverExecutable": "/Users/tft/Documents/Milestone/chromedriver"
+    }
+  ],
+  "dockerAndroid": [
+    {
+      "browserName": "Chrome",
+      "chromedriverExecutable": "/opt/chromedriver2"
+    }
+  ]
+}

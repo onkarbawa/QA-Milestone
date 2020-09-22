@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TvOS Suite" verbose="1"  thread-count="1" >
+    <parameter name="platform" value="tvOS"/>
+    <parameter name="app" value="Pluto"/>
+    <listeners>
+        <listener class-name="com.milestone.listener.WebDriverListener"/>
+    </listeners>
+    <test name="tvOS">
+        <classes>
+            <class name="AppleTv"/>
+        </classes>
+    </test>
+</suite>

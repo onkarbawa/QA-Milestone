@@ -1,0 +1,53 @@
+{
+  "android": [
+    {
+      "url": "http://127.0.0.1:4723/wd/hub",
+      "platformName": "android",
+      "deviceName": "Samsung Galaxy S9 Plus",
+      "newCommandTimeOut": 120
+    }
+  ],
+  "iOS": [
+    {
+      "url": "http://127.0.0.1:4723/wd/hub",
+      "platformName": "iOS",
+      "platformVersion": "13.0",
+      "deviceName": "iPhone 11",
+      "usePrebuiltWDA": true,
+      "showXcodeLog": true,
+      "newCommandTimeOut": 120,
+      "nativeWebTap": true
+    }
+  ],
+  "tvOS": [
+    {
+      "url": "http://127.0.0.1:4723/wd/hub",
+      "platformName": "tvOS",
+      "platformVersion": "13.4",
+      "automationName": "XCUITest",
+      "deviceName": "Apple Tv",
+      "udid": "8A8C9A60-889B-4AAE-8578-7FFFA2B7CFC8"
+    }
+  ],
+  "browserStackIOS": [
+    {
+      "deviceName": "iPhone 6S",
+      "platformVersion": "11.0",
+      "platformName": "iOS"
+    }
+  ],
+  "browserStackAndroid": [
+    {
+      "deviceName": "Samsung Galaxy S9 Plus",
+      "platformVersion": "8.0",
+      "platformName": "Android"
+    }
+  ],
+  "dockerDevice": [
+    {
+      "url": "http://127.0.0.1:4723/wd/hub",
+      "platformName": "android",
+      "deviceName": "Samsung Galaxy S6 Plus"
+    }
+  ]
+}
