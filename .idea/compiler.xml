@@ -11,8 +11,5 @@
         <module name="milestone3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ms_third_quarter" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

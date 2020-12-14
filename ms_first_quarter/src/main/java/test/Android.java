@@ -29,7 +29,7 @@ public class Android extends BaseTest {
         loginPage.tapOnSignInButton();
         loginPage.enterCredentials();
         loginPage.tapOnSubmitButton();
-        Assert.assertEquals("Onkar Bawa", homePage.getProfileName());
+        Assert.assertEquals( homePage.getProfileName(), "Test Test");
 //        homePage.signOut();
     }
 

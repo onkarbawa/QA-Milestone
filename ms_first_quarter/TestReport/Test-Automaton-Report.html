@@ -56,7 +56,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Wednesday, September 16, 2020, 04:32 AM (IST)</span>
+                    <span class="badge badge-primary">Thursday, November 26, 2020, 02:04 AM (IST)</span>
                 </a>
             </li>
         </ul>
@@ -100,12 +100,12 @@
 					<i class="fa fa-exclamation-circle"></i>
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
 						
 						
 						
 						
-						
-						<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
 						<div class="dropdown-divider"></div>
 						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 					</ul>
@@ -114,28 +114,28 @@
 		</div>
 		<div class="test-list-wrapper scrollable">
 			<ul class="test-list-item">
-				<li class="test-item"  status="skip" test-id="1"
+				<li class="test-item"  status="fail" test-id="1"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">loginAndroid</p>
-							<p class="duration text-sm">0h 0m 0s+2ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 21s+591ms</p>
+							<span class="datetime">02:04:54 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">loginAndroid</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+									<h5 class="test-status text-fail">loginAndroid</h5>
+									<span class='badge badge-success'>11.26.2020 02:04:54</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:16</span>
+									<span class='badge badge-default'>0h 0m 21s+591ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -151,10 +151,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:05:16 AM</td>
 				<td>
-						Test Skipped
+						Test Failed
 				</td>
 			</tr>
 	</tbody>
@@ -162,28 +162,76 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="skip" test-id="2"
+				<li class="test-item"  status="pass" test-id="2"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyCheckoutFunctionality</p>
+							<p class="duration text-sm">0h 0m 0s+1ms</p>
+							<span class="datetime">02:05:16 AM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyCheckoutFunctionality</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:16</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:16</span>
+									<span class='badge badge-default'>0h 0m 0s+1ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:16 AM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">verifyContactUsButton</p>
-							<p class="duration text-sm">0h 0m 0s+0ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 8s+729ms</p>
+							<span class="datetime">02:05:16 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">verifyContactUsButton</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+0ms</span>
+									<h5 class="test-status text-pass">verifyContactUsButton</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:16</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:25</span>
+									<span class='badge badge-default'>0h 0m 8s+729ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -199,10 +247,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:25 AM</td>
 				<td>
-						Test Skipped
+						Test passed
 				</td>
 			</tr>
 	</tbody>
@@ -210,28 +258,28 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="skip" test-id="3"
+				<li class="test-item"  status="pass" test-id="4"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">verifyProfileButton</p>
-							<p class="duration text-sm">0h 0m 0s+1ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 3s+880ms</p>
+							<span class="datetime">02:05:25 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">verifyProfileButton</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+1ms</span>
+									<h5 class="test-status text-pass">verifyProfileButton</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:25</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:29</span>
+									<span class='badge badge-default'>0h 0m 3s+880ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -247,10 +295,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:29 AM</td>
 				<td>
-						Test Skipped
+						Test passed
 				</td>
 			</tr>
 	</tbody>
@@ -258,28 +306,28 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="skip" test-id="4"
+				<li class="test-item"  status="pass" test-id="5"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">verifyOrderHistoryButton</p>
-							<p class="duration text-sm">0h 0m 0s+3ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 5s+603ms</p>
+							<span class="datetime">02:05:29 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">verifyOrderHistoryButton</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+									<h5 class="test-status text-pass">verifyOrderHistoryButton</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:29</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:34</span>
+									<span class='badge badge-default'>0h 0m 5s+603ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -295,10 +343,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:34 AM</td>
 				<td>
-						Test Skipped
+						Test passed
 				</td>
 			</tr>
 	</tbody>
@@ -306,28 +354,28 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="skip" test-id="5"
+				<li class="test-item"  status="pass" test-id="6"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">verifyCreditSlipButton</p>
-							<p class="duration text-sm">0h 0m 0s+1ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 6s+185ms</p>
+							<span class="datetime">02:05:34 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">verifyCreditSlipButton</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+1ms</span>
+									<h5 class="test-status text-pass">verifyCreditSlipButton</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:34</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:41</span>
+									<span class='badge badge-default'>0h 0m 6s+185ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -343,10 +391,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:41 AM</td>
 				<td>
-						Test Skipped
+						Test passed
 				</td>
 			</tr>
 	</tbody>
@@ -354,28 +402,28 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="skip" test-id="6"
+				<li class="test-item"  status="pass" test-id="7"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">verifyMyAddressesButton</p>
-							<p class="duration text-sm">0h 0m 0s+1ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 5s+445ms</p>
+							<span class="datetime">02:05:41 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">verifyMyAddressesButton</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+1ms</span>
+									<h5 class="test-status text-pass">verifyMyAddressesButton</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:41</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:46</span>
+									<span class='badge badge-default'>0h 0m 5s+445ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -391,10 +439,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:46 AM</td>
 				<td>
-						Test Skipped
+						Test passed
 				</td>
 			</tr>
 	</tbody>
@@ -402,28 +450,28 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="skip" test-id="7"
+				<li class="test-item"  status="pass" test-id="8"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">verifyPersonalInfoButton</p>
-							<p class="duration text-sm">0h 0m 0s+4ms</p>
-							<span class="datetime">04:32:16 AM</span>
+							<p class="duration text-sm">0h 0m 5s+195ms</p>
+							<span class="datetime">02:05:46 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">verifyPersonalInfoButton</h5>
-									<span class='badge badge-success'>09.16.2020 04:32:16</span>
-									<span class='badge badge-danger'>09.16.2020 04:32:16</span>
-									<span class='badge badge-default'>0h 0m 0s+4ms</span>
+									<h5 class="test-status text-pass">verifyPersonalInfoButton</h5>
+									<span class='badge badge-success'>11.26.2020 02:05:46</span>
+									<span class='badge badge-danger'>11.26.2020 02:05:51</span>
+									<span class='badge badge-default'>0h 0m 5s+195ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -439,10 +487,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:32:16 AM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:05:51 AM</td>
 				<td>
-						Test Skipped
+						Test passed
 				</td>
 			</tr>
 	</tbody>
@@ -481,13 +529,13 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'>
-						<b>0</b> tests passed
+					<div><small data-tooltip='87.5%'>
+						<b>7</b> tests passed
 						</small>
 					</div>
 					<div>
-						<small data-tooltip='0%'><b>0</b> tests failed, 
-						<b>7</b> skipped, <b data-tooltip='0%'>0</b> others
+						<small data-tooltip='12.5%'><b>1</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
 				</div>
@@ -504,10 +552,10 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+					<div><small data-tooltip='87.5%'><b>7</b> events passed</small></div>
 					<div>
-						<small data-tooltip='0%'><b>0</b> events failed, 
-						<b data-tooltip='100%'>7</b> others
+						<small data-tooltip='12.5%'><b>1</b> events failed, 
+						<b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
 				</div>
@@ -521,10 +569,10 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Tests</h6>
-							<h2 class="font-size-28 font-weight-light mt-3">7</h2>
+							<h2 class="font-size-28 font-weight-light mt-3">8</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>.00%</span>
+							<span>87.50%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -540,7 +588,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">Wednesday, September 16, 2020, 04:32 AM (IST)</h4>
+							<h4 class="font-weight-light mt-4">Thursday, November 26, 2020, 02:04 AM (IST)</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -556,7 +604,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 1s+499ms</h4>
+							<h4 class="font-weight-light mt-4">0h 0m 59s+330ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -586,14 +634,14 @@
 </div>
 <script>
 	var statusGroup = {
-	    parentCount: 7,
-		passParent: 0,
-		failParent: 0,
+	    parentCount: 8,
+		passParent: 7,
+		failParent: 1,
 		fatalParent: 0,
 		errorParent: 0,
 		warningParent: 0,
-		skipParent: 7,
-		exceptionsParent: 7,
+		skipParent: 0,
+		exceptionsParent: 1,
 		childCount: 0,
 		passChild: 0,
 		failChild: 0,
@@ -614,13 +662,13 @@
 		infoGrandChild: 0,
 		debugGrandChild: 0,
 		exceptionsGrandChild: 0,
-		eventsCount: 7,
-		passEvents: 0,
-		failEvents: 0,
+		eventsCount: 8,
+		passEvents: 7,
+		failEvents: 1,
 		fatalEvents: 0,
 		errorEvents: 0,
 		warningEvents: 0,
-		skipEvents: 7,
+		skipEvents: 0,
 		infoEvents: 0,
 		debugEvents: 0,
 		exceptionsEvents: 0
@@ -628,7 +676,7 @@
 </script>
 <script>
 	var timeline = {
-	        "loginAndroid":0.002,"verifyContactUsButton":0,"verifyProfileButton":0.001,"verifyOrderHistoryButton":0.003,"verifyCreditSlipButton":0.001,"verifyMyAddressesButton":0.001,"verifyPersonalInfoButton":0.004
+	        "loginAndroid":21.591,"verifyCheckoutFunctionality":0.001,"verifyContactUsButton":8.729,"verifyProfileButton":3.88,"verifyOrderHistoryButton":5.603,"verifyCreditSlipButton":6.185,"verifyMyAddressesButton":5.445,"verifyPersonalInfoButton":5.195
 	};
 </script>
                 </div>
